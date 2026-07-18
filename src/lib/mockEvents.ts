@@ -1,0 +1,80 @@
+import type { NgoEvent } from './types'
+
+export const mockNgoEvents: NgoEvent[] = [
+  {
+    id: 'ev-1',
+    title: 'SDG 13 Community Climate Action Workshop',
+    organizerNgoId: 'ngo-2',
+    dateISO: '2026-05-02T10:00:00.000Z',
+    city: 'Chennai',
+    state: 'TN',
+    venue: 'Ward Community Hall',
+    sdgs: ['SDG 13', 'SDG 11'],
+    summary:
+      'A practical workshop on local climate resilience: water harvesting, heat mapping, and community reporting dashboards.',
+    volunteersNeeded: 25,
+    fundingTargetINR: 150000,
+    sponsorNotes: 'CSR sponsorship can support kits, venue logistics, and volunteer training material.',
+  },
+  {
+    id: 'ev-2',
+    title: 'Women Entrepreneurship & Skilling Mela',
+    organizerNgoId: 'ngo-5',
+    dateISO: '2026-05-18T09:30:00.000Z',
+    city: 'Mysuru',
+    state: 'KA',
+    venue: 'Town Hall Grounds',
+    sdgs: ['SDG 5', 'SDG 8'],
+    summary:
+      'Skill showcase, market linkage booths, and mentorship sessions for women-led micro-enterprises.',
+    volunteersNeeded: 40,
+    fundingTargetINR: 250000,
+    sponsorNotes: 'Funding can support stalls, mentorship tracks, and micro-grants for top 10 ventures.',
+  },
+  {
+    id: 'ev-3',
+    title: 'School Digital Literacy Drive (Weekend)',
+    organizerNgoId: 'ngo-4',
+    dateISO: '2026-04-27T03:30:00.000Z',
+    city: 'Bengaluru',
+    state: 'KA',
+    venue: 'Govt High School Campus',
+    sdgs: ['SDG 4', 'SDG 10'],
+    summary:
+      'Volunteer-led sessions on basic computing, internet safety, and career pathways for grade 8–10 students.',
+    volunteersNeeded: 30,
+    fundingTargetINR: 120000,
+    sponsorNotes: 'Sponsors can donate refurbished laptops and cover training kits for students.',
+  },
+  {
+    id: 'ev-4',
+    title: 'Mobile Health Screening Camp',
+    organizerNgoId: 'ngo-3',
+    dateISO: '2026-05-08T04:00:00.000Z',
+    city: 'Kochi',
+    state: 'KL',
+    venue: 'Primary Health Centre',
+    sdgs: ['SDG 3'],
+    summary:
+      'Basic screening camp with follow-up referrals, awareness sessions, and telemedicine enrollment support.',
+    volunteersNeeded: 18,
+    fundingTargetINR: 180000,
+    sponsorNotes: 'Funding can cover diagnostics, transport, and awareness materials.',
+  },
+  {
+    id: 'ev-5',
+    title: 'Youth Employability Mini-Hack Day',
+    organizerNgoId: 'ngo-1',
+    dateISO: '2026-05-11T04:30:00.000Z',
+    city: 'Bengaluru',
+    state: 'KA',
+    venue: 'Community Innovation Lab',
+    sdgs: ['SDG 8', 'SDG 4', 'SDG 10'],
+    summary:
+      'Career readiness sessions + a mini project day where youth build simple solutions for local SDG problems.',
+    volunteersNeeded: 35,
+    fundingTargetINR: 200000,
+    sponsorNotes: 'Sponsors can fund internet, mentorship, and certificates; companies can host interview prep sessions.',
+  },
+]
+
